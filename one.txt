@@ -47,4 +47,9 @@ git checkout name --- goes to name branch
 git merge branchname -m "message"
 
 Remote --
-  
+    gh auth 
+    set contents permission on the PAT
+
+    git push -u origin main
+    git config --list
+     
