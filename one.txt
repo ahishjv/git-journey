@@ -21,5 +21,20 @@ Local --
   Commit to local repo
 
 
+git reset --hard 
+  brings back all files deleted as well in the working directory
+
+git rm file 
+  remove files and stages the removed file
+
+git rm --cached file 
+  removed file only from staging , keeps in the working directory
+
+git rm --force file 
+  removes file from working diorectory
+
+git rm -r folder
+  removes all files within the folder
+
 Remote --
   
