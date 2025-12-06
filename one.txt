@@ -36,5 +36,15 @@ git rm --force file
 git rm -r folder
   removes all files within the folder
 
+
+Branching
+
+git branch -- lists all branches
+git branch name --- creates a branch with name 
+
+git checkout name --- goes to name branch
+
+
+
 Remote --
   
