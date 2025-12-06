@@ -44,7 +44,7 @@ git branch name --- creates a branch with name
 
 git checkout name --- goes to name branch
 
-
+git merge branchname -m "message"
 
 Remote --
   
