@@ -46,5 +46,38 @@ git checkout name --- goes to name branch
 
 git merge branchname -m "message"
 
+
+conflict resolution
+
+create a new branch staging
+ make change in one of files
+ commit to local repo
+
+
+go to dev branch 
+ make new change on the same file modified in staging branch
+ commit to local repo
+
+when run
+ git merge staging there will be conflict
+
+open the file 
+  remove the changes you do not want to keep
+
+and then commit to local repo
+
+
+go back to staging
+ git merge dev
+
+ this will bring the changes from dev
+
+now go back to main 
+  git merge staging
+
+now all branches are upto date
+
+
+
 Remote --
   
