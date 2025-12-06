@@ -1,1 +1,25 @@
 one
+11111111
+
+git add --all
+git add -A
+
+These add everything in the project
+
+git add .
+
+This adds everything in the current directory
+
+git add * 
+
+This adds everything that is new or modified but deleted will not get staged
+
+
+Local --
+  Working directory
+  Staging Area
+  Commit to local repo
+
+
+Remote --
+  
