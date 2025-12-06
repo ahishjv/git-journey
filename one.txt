@@ -83,4 +83,9 @@ git diff commit1 commit2
   if commit1 is older and you have added text using commit2 (most recent) then the text will appear in green indicating commit1 needs that text to bring it in sync with commit2.
 
 Remote --
-  
+    gh auth 
+    set contents permission on the PAT
+
+    git push -u origin main
+    git config --list
+     
