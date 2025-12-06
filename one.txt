@@ -77,7 +77,10 @@ now go back to main
 
 now all branches are upto date
 
+git diff commit1 commit2
 
+  this gives the difference from the commit1 perspective 
+  if commit1 is older and you have added text using commit2 (most recent) then the text will appear in green indicating commit1 needs that text to bring it in sync with commit2.
 
 Remote --
   
