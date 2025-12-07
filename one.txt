@@ -89,6 +89,15 @@ git diff commit1 commit2
 	git restore --stage .
 		This brings the uncommitted but staged changes to a previous commit , this will not change working directory.
 
+
+	git stash will store the changes on the current branch and you can move out of the branch without losing it
+	git stash pop will bring back the changes when needed
+	git stash appli will also bring back the changes without claring the stash .
+
+	git stash list will show all stashed changes.
+
+	To select a specific item , use the id , git stash pop/apply stash@{0}
+
 Remote --
     gh auth login
     gh auth status 
