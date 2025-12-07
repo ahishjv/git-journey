@@ -98,6 +98,10 @@ git diff commit1 commit2
 
 	To select a specific item , use the id , git stash pop/apply stash@{0}
 
+	git revert commitid -- This will create a new commit at the end without removing any other commit.
+	
+ 		The difference between revert and reset is revert will create a new commit but reset will remove all commits until the commit id.
+
 Remote --
     gh auth login
     gh auth status 
