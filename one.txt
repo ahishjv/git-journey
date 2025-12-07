@@ -88,5 +88,10 @@ Remote --
     set contents permission on the PAT
 
     git push -u origin main
+        Only main branch is pushed , to update the branches , checkout the specific branch and run git push origin branchname.
     git config --list
+
+   
+    git pull - git fetch + git merge
+    
      
