@@ -82,6 +82,13 @@ git diff commit1 commit2
   this gives the difference from the commit1 perspective 
   if commit1 is older and you have added text using commit2 (most recent) then the text will appear in green indicating commit1 needs that text to bring it in sync with commit2.
 
+
+	git restore . 
+		This brings the uncommitted change back to a previous commit.
+
+	git restore --stage .
+		This brings the uncommitted but staged changes to a previous commit , this will not change working directory.
+
 Remote --
     gh auth login
     gh auth status 
@@ -94,4 +101,5 @@ Remote --
    
     git pull - git fetch + git merge
     
+
      
