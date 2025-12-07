@@ -102,6 +102,12 @@ git diff commit1 commit2
 	
  		The difference between revert and reset is revert will create a new commit but reset will remove all commits until the commit id.
 
+
+	git rebase main
+		This will go to the sub-branch which needs to be rebased with main. 
+			You are working on dev branch with 2 commits , during the time the main branch gets updated with few commits , one option will be to just merge main into the dev branch , but this craetes an additional commit and the commit ids are updated. The better way would be to rebase that way git will first identify the commit from where commit ids are in sync between the branches, then adds the new commits in main to the dev branch and appends the two commits to that from dev. This way the commit history remains linear.
+	Never use REBASE on public or shared branches.
+
 Remote --
     gh auth login
     gh auth status 
